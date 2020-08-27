@@ -17,7 +17,7 @@
   console.log('true');
   let firstName = undefined;
   console.log('undefined');
-  let selectedColor = null;
+  let selectedIteam = null;
   console.log('null');
   console.log (typeof 4.5)
  //dyamically typed
@@ -36,4 +36,6 @@
   console.log(person);
   // arays
   let selectedColors = ['red','blue'];
-  console.log(selectedColors);
+  selectedColors[2] ='green';
+    console.log(selectedColors);
+  
