@@ -7,3 +7,4 @@ specialForms.if = (args, scope) => {
       return evaluate(args[2], scope);
     }
   };
+  
