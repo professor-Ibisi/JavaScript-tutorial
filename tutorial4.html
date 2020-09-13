@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>document</title>
+</head>
+
+<body>
+  <h1>Form field with JavaScript and HTML</h1>
+  <form id="form-user" action="*" method="POST">
+    <div class="form-box error" data-errormsg="">
+      <label for="input-first">First</label>
+      <input type="text" id="input-first" autofocus placeholder="First Name" tabindex="1" />
+    </div>
+    <div class="form-box" data-errormsg="">
+      <label for="input-Last">Last</label>
+      <input type="text" id="input-Last" autofocus placeholder="Last Name" tabindex="2" />
+    </div>
+    <div class="form-box" data-errormsg="">
+      <label for="input-Email">Email</label>
+      <input type="text" id="input-Email" required placeholder="Email" tabindex="3" />
+    </div>
+    <div class="form-box" data-errormsg="">
+      <label for="input-Password">Password</label>
+      <input type="text" id="input-Password" required placeholder="Password" tabindex="4" />
+    </div>
+    <div class="form-box" data-errormsg="">
+      <label for="input-age">Age</label>
+      <select id="input-age" tabindex="5">
+        <option value="0">under 20</option>
+        <option value="0">under 20-30</option>
+        <option value="0">under 30-40</option>
+        <option value="0">under 40-50</option>
+        <option value="0">over 50</option>
+      </select>
+    </div>
+    <div class="form-box" data-errormsg="">
+      <label for="input-alive">Alive?</label>
+      <input type="checkbox" id="alive" tabindex="6" checked />
+    </div>
+    <div class="form-box">
+      <button id="button-cancel">Cancel</button>
+      <button id="button-send">send</button>
+    </div>
+  </form>
+</body>
+<script src="form1.js"></script>
+</html>
